@@ -113,6 +113,10 @@ img {
     margin-left: 20px;
 }
 
+.catLink a:hover {
+    cursor: pointer;
+}
+
 /* banner */
 .banner {
     margin-bottom: 60px;
@@ -162,6 +166,27 @@ img {
     gap: 20px;
 }
 
+.productItem {
+    position: relative;
+}
+
+.featured {
+    color: #EAF0ED;
+    letter-spacing: 0.3rem;
+    background-color: #3F5D45;
+    padding: 10px;
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.likeIcon {
+    position: absolute;
+    top: 20px;
+    right: 22px;
+}
+
 .productTitle {
     font-size: 20px;
     line-height: 1;
@@ -207,6 +232,7 @@ img {
 }
 
 .pageItem:hover {
+    background-color: #EAF0ED;
     cursor: pointer;
 }
 
@@ -219,6 +245,63 @@ img {
     color: #EAF0ED;
     background-color: #3F5D45;
     cursor: pointer;
+}
+
+/* fullPageContainer */
+.fullPageContainer {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* subscribe */
+.subscribe {
+    padding: 30px 122px;
+    background-color: #3F5D45;
+    display: flex;
+    justify-content: space-between;
+}
+
+.callToAction {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.callToAction img {
+    width: 40px;
+}
+
+.callToAction p {
+    color: #EAF0ED;
+    font-size: 24px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+.mail input {
+    width: 316px;
+    height: 56px;
+    padding: 0 0 0 10px;
+    background: #EAF0ED;
+    font-size: 24px;
+    border: none;
+    box-sizing: border-box;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/mail-24px.png");
+    background-repeat: no-repeat;
+    background-position: 20px 16px;
+}
+
+.mail a {
+    display: block;
+    width: 64px;
+    height: 56px;
+    background: #FFE180;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer */
